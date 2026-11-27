@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Car World</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .menubar {
+            background-color: rgba(0, 45, 151, 0.73);
+            width: 100%;
+        }
+
+        .menubar table {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .menubar th {
+            padding: 15px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            border: 1px solid white;
+            padding: 5px;
+        }
+
+        .login {
+            width: 350px;
+            margin: 40px auto;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        .login h2 {
+            text-align: center;
+        }
+
+        input {
+            width: 95%;
+            padding: 10px;
+            margin: 8px 0 15px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: rgba(0, 45, 151, 0.73);
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menubar">
+        <table>
+            <tr>
+                <th><a href="Home.Html">HOME</a></th>
+                <th><a href="About.Html">ABOUT</a></th>
+               <th><a href="Register.Html">REGISTER</a></th>
+                <th><a href="Login.Html">LOGIN</a></th>
+                <th><a href="Contact.Html">CONTACT</a></th>
+                <th><a href="Admin.Html">ADMIN</a></th>
+            </tr>
+        </table>
+    </div>
+
+    <div class="login">
+
+        <h2>Login Form</h2>
+
+        <form>
+            Email:
+            <input type="email" placeholder="Enter Email">
+
+            Password:
+            <input type="password" placeholder="Enter Password">
+
+            <button type="submit">Login</button>
+        </form>
+
+    </div>
+
+</body>
+</html>

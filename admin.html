@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - Car World</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .menubar {
+            background-color: rgba(0, 45, 151, 0.73);
+            width: 100%;
+        }
+
+        .menubar table {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .menubar th {
+            padding: 15px;
+        }
+
+        .menubar a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .menubar a:hover {
+            border: 1px solid white;
+            padding: 5px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .car-table {
+            width: 90%;
+            margin: 25px auto;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        .car-table th,
+        .car-table td {
+            border: 1px solid black;
+            padding: 15px;
+        }
+
+        .car-table th {
+            background-color: #eeeeee;
+        }
+
+        .car-table img {
+            width: 120px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="menubar">
+        <table>
+            <tr>
+                <th><a href="Home.Html">HOME</a></th>
+                <th><a href="About.Html">ABOUT</a></th>
+                <th><a href="Registration.Html">REGISTER</a></th>
+                <th><a href="Login.Html">LOGIN</a></th>
+                <th><a href="Contact.Html">CONTACT</a></th>
+                <th><a href="Admin.Html">ADMIN</a></th>
+            </tr>
+        </table>
+    </div>
+
+    <h2>Car Details</h2>
+
+    <table class="car-table">
+
+        <tr>
+            <th>Car Name</th>
+            <th>Company</th>
+            <th>Model</th>
+            <th>Price</th>
+            <th>Car Image</th>
+        </tr>
+
+        <tr>
+            <td>Swift</td>
+            <td>Maruti Suzuki</td>
+            <td>2024</td>
+            <td>₹ 6,00,000</td>
+            <td><img src="swift.jpg" alt="Swift Car"></td>
+        </tr>
+
+        <tr>
+            <td>Creta</td>
+            <td>Hyundai</td>
+            <td>2024</td>
+            <td>₹ 11,00,000</td>
+            <td><img src="creta.jpg" alt="Creta Car"></td>
+        </tr>
+
+        <tr>
+            <td>Thar</td>
+            <td>Mahindra</td>
+            <td>2024</td>
+            <td>₹ 15,00,000</td>
+            <td><img src="thar.jpg" alt="Thar Car"></td>
+        </tr>
+
+        <tr>
+            <td>Nexon</td>
+            <td>Tata</td>
+            <td>2024</td>
+            <td>₹ 8,00,000</td>
+            <td><img src="nexon.jpg" alt="Nexon Car"></td>
+        </tr>
+
+        <tr>
+            <td>Fortuner</td>
+            <td>Toyota</td>
+            <td>2024</td>
+            <td>₹ 33,00,000</td>
+            <td><img src="fortuner.jpg" alt="Fortuner Car"></td>
+        </tr>
+
+    </table>
+
+</body>
+</html>

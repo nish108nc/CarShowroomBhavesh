@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - Car World</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .menubar {
+            background-color: rgba(0, 45, 151, 0.73); 
+            width: 100%;
+        }
+
+        .menubar table {
+            width: 100%;
+            padding: 10px;
+        }
+
+        .menubar th {
+            padding: 15px;
+        }
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            border: 1px solid white;
+            padding: 5px;
+        }
+
+        .registration {
+            width: 350px;
+            margin: 30px auto;
+            padding: 20px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        .registration h2 {
+            text-align: center;
+        }
+
+        input {
+            width: 95%;
+            padding: 10px;
+            margin: 8px 0 15px;
+            box-sizing: border-box;
+        }
+
+        .login {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+
+        .login a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="menubar">
+        <table>
+            <tr>
+                <th><a href="index.html">HOME</a></th>
+                <th><a href="about.html">ABOUT</a></th>
+           <th><a href="register.html">REGISTER</a></th>
+                <th><a href="login.html">LOGIN</a></th>
+                <th><a href="contact.html">CONTACT</a></th>
+                <th><a href="admin.html ">ADMIN</a></th>
+                
+            </tr>
+        </table>
+    </div>
+
+    <div class="registration">
+
+        <h2>Registration Form</h2>
+
+        <form>
+
+            Full Name:
+            <input type="text" name="fullname"
+                placeholder="Enter Full Name" required>
+
+            Email:
+            <input type="email" name="email"
+                placeholder="Enter Email" required>
+
+            Mobile Number:
+            <input type="tel" name="mobile"
+                placeholder="Enter Mobile Number"
+                pattern="[0-9]{10}" required>
+
+            Password:
+            <input type="password" name="password"
+                placeholder="Enter Password" required>
+
+            Confirm Password:
+            <input type="password" name="confirmpassword"
+                placeholder="Confirm Password" required>
+
+            <p class="login">
+                Already have an account?
+                <a href="Login.Html">Login Here</a>
+            </p>
+
+        </form>
+
+    </div>
+
+</body>
+</html>
